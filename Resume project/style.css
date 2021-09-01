@@ -1,0 +1,155 @@
+body{
+    margin: 0px;
+}
+
+header{
+    height: 65vh;
+    opacity: 0.9;
+    background-image: url(images/macbook_mouse.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+}
+
+div{
+    transition: 3s ease-in-out 2s;
+}
+
+.text-align{
+    text-align: center;
+}
+
+.align-ul{
+    margin-left: 35vw;
+}
+
+section{
+    height: 65vh;
+}
+#skills-ul{
+    margin-left: 35vw;
+}
+#name{
+    text-align: center;
+    margin-top: 25vh;
+    color: lightgrey;
+    font-style: italic;
+    font-size: 150px;
+     transition: 2s ease-in-out;
+}
+/*
+#name:hover{
+    color: rgb(197, 197, 197);
+    transition: color 0.5s, underline 1s;
+    text-decoration: underline;
+}
+*/
+
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+
+.horizontal-list li a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu li a{
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover{
+    color: lightgrey;
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+#about{
+    display: grid;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+}
+
+#education{
+    display: grid;
+}
+
+#competencies{
+    display: grid;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+}
+
+#skills{
+    display: grid;
+}
+
+#projects{
+    display: grid;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+}
+
+.headings{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* .opacity{
+    opacity: 0.5;
+} */
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    section{
+        height: 50vh;
+        font-size: 10px;
+    }
+    #name{
+    font-size: 50px;
+    }
+    .headings{
+        font-size: 20px;
+    }
+    header{
+        height: 60vh;
+        font-size: 20px;
+    }
+    .align-ul{
+        margin-left: 10vw;
+    }
+  }
+
+ @media only screen and (min-width: 769px) {
+    /* For tablets: */
+    section{
+        height: 70vh;
+        font-size: 20px;
+    }
+    #name{
+    font-size: 90px;
+    }
+    .headings{
+        font-size: 30px;
+    }
+    header{
+        height: 70vh;
+        font-size: 30px;
+    }
+    .align-ul{
+        margin-left: 30vw;
+    }
+} 
